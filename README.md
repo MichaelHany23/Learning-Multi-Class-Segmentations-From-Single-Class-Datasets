@@ -122,7 +122,6 @@ Below are screenshots of the model’s predictions on the validation set and the
 |---------|------------------|-----------|
 | mIoU    | 85.5%            | 69.1%     |
 
-*(Replace the cited paper results and your numbers accordingly.)*
 
 ---
 
