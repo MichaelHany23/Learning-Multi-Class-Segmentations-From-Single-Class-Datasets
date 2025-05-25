@@ -1,7 +1,5 @@
 # Learning-Multi-Class-Segmentations-From-Single-Class-Datasets
-Absolutely! Here’s a template for a professional and clear `README.md` for your multiclass semantic segmentation project built from single-class datasets. You’ll likely want to tailor parts (especially installation, usage, dataset info, and results) to your own repo specifics!
 
----
 
 # Multiclass Semantic Segmentation Using Single-Class Datasets
 
@@ -21,7 +19,7 @@ This project implements **multiclass semantic segmentation** by combining severa
 ## Getting Started
 
 ### Prerequisites
-
+Install required packages:
 - Python 3.9.21+
 - PyTorch 
 - numpy
@@ -29,10 +27,9 @@ This project implements **multiclass semantic segmentation** by combining severa
 - tqdm
 - random
 - PIL
-- 
+- ....
 
 
-Install required packages:
 
 
 ### Dataset Preparation
@@ -72,7 +69,7 @@ Evaluate the trained model with:
 
 ## Overview
 
-This repository implements state-of-the-art multiclass semantic segmentation using the U-Net architecture, leveraging single-class datasets combined into a multiclass training regime. Our approach is motivated by the need to perform comprehensive semantic segmentation despite limited full multiclass annotation resources.
+This repository implements multiclass semantic segmentation using the U-Net architecture, leveraging single-class datasets combined into a multiclass training regime. Our approach is motivated by the need to perform comprehensive semantic segmentation despite limited full multiclass annotation resources.
 
 ---
 
@@ -102,6 +99,9 @@ This repository implements state-of-the-art multiclass semantic segmentation usi
 | Augmentations     | Color Jitter, Horizontal Flip, 256² Rescaling, Normalization |
 
 ---
+## Mask/Image sampling:
+this is an a sample from the dataset used and the image/mask format:
+![image](https://github.com/user-attachments/assets/ef2eb129-b463-4890-8c38-3dca56f53821)
 
 ## Results
 
@@ -109,7 +109,10 @@ Below are screenshots of the model’s predictions on the validation set and the
 
 | Validation Example       | Ground Truth           | Model Prediction         |
 |-------------------------|------------------------|-------------------------|
-| ![Input](results/input1.png) | ![GT](results/gt1.png) | ![Pred](results/pred1.png) |
+| ![Input](results/input1.png![image](https://github.com/user-attachments/assets/bcbf7a77-e6db-4983-a132-d6feb656f86d)
+) | ![GT](![image](https://github.com/user-attachments/assets/ccf19801-25b9-4500-841f-af32bb9dc294)
+) | ![Pred](![image](https://github.com/user-attachments/assets/c5c0712c-fed8-4e05-8475-21dded66955b)
+) |
 | ![Input](results/input2.png) | ![GT](results/gt2.png) | ![Pred](results/pred2.png) |
 
 *(Replace the above image links with your screenshots in the `results/` directory)*
@@ -123,7 +126,6 @@ Below are screenshots of the model’s predictions on the validation set and the
 | Metric  | Paper [Citation] | This Work |
 |---------|------------------|-----------|
 | mIoU    | 85.5%            | 69.1%     |
-| Pixel Acc | 95.2%          | 94.4%     |
 
 *(Replace the cited paper results and your numbers accordingly.)*
 
@@ -143,10 +145,4 @@ Our U-Net model, trained with color jitter and horizontal flip augmentations, ac
 
 - [1] Original Paper: _[(https://openaccess.thecvf.com/content_CVPR_2019/papers/Dmitriev_Learning_Multi-Class_Segmentations_From_Single-Class_Datasets_CVPR_2019_paper.pdf)]_
 
----
-
-
-
-
-### *Add your model’s visual results (screenshots), the table comparing metrics with the paper, and your main design choices as above for a strong README and presentation/report segment! If you share the actual numbers/results, I can pre-fill the tables with them for you.*
 
