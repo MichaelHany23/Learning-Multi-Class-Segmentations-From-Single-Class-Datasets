@@ -110,7 +110,7 @@ Below are screenshots of the model’s predictions on the validation set and the
 | Validation Example       | Ground Truth           | Model Prediction         |
 |-------------------------|------------------------|-------------------------|
 |![image](https://github.com/user-attachments/assets/bcbf7a77-e6db-4983-a132-d6feb656f86d)|![image](https://github.com/user-attachments/assets/ccf19801-25b9-4500-841f-af32bb9dc294)|![image](https://github.com/user-attachments/assets/565094b9-774f-470c-9ad2-3183d358939f)
-|
+
 
 ---
 
