@@ -27,7 +27,7 @@ Install required packages:
 - tqdm
 - random
 - PIL
-- ....
+- etc...
 
 
 
@@ -46,24 +46,6 @@ data/
   ...
 ```
 Each `images/` folder contains input images, and each `masks/` folder contains binary masks for the corresponding class. The script will automatically combine and relabel these to create multiclass masks.
-
-### Configuration
-
-Edit the config file (`config/config.yaml`) to specify:
-- Paths to datasets
-- Model hyperparameters
-- Training settings (batch size, epochs, learning rate, etc.)
-- Other options as needed
-
-### Training
-
-Start the training process:
-
-
-### Evaluation
-
-Evaluate the trained model with:
-
 
 # Multiclass Semantic Segmentation Using Single-Class Datasets
 
